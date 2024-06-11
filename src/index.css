@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  html,
+  body {
+    font-family: "inter";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+}
+
+.leaflet-marker-icon.leaflet-interactive{
+  pointer-events: none;
+}
+.leaflet-bar.leaflet-routing-container-hide{
+  display: none;
+}
+/* Width */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.react-leaflet{
+  object-fit: contain;
+}
+.MuiFormHelperText-root{
+  font-size: 14px !important;
+  line-height: 20px !important;
+  font-weight: 400 !important;
+}
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #d0d5dd;
+  border-radius: 6px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  height: 10px;
+  background-color: #f6f6f6;
+  border-radius: 9999px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  margin: 2px 0 1px 2px;
+  height: 5px;
+  background-color: gray;
+  border-radius: 0.9375rem;
+}
+
+/* React Toastify Start */
+.Toastify__toast--info {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 600;
+  background: #eff8ff;
+  border: 1px solid #84caff;
+  color: #202939;
+}
+.Toastify__toast--warning {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 600;
+  background: #fffaeb;
+  border: 1px solid #fec84b;
+  color: #202939;
+}
+.Toastify__toast--error {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 600;
+  background: #fef3f2;
+  border: 1px solid #fda29b;
+  color: #202939;
+}
+.Toastify__toast--success {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 600;
+  background: #ecfdf3;
+  border: 1px solid #75e0a7;
+  color: #202939;
+}
+/* .Toastify__close-button {
+  font-size: 20px;
+} */
+/* React Toastify End */

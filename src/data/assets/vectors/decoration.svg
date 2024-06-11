@@ -1,0 +1,53 @@
+<svg width="608" height="100vh" viewBox="0 0 608 786" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="760" y="39.9668" width="746.034" height="759.356" rx="373.017" transform="rotate(90 760 39.9668)" fill="url(#paint0_linear_13463_11013)" />
+  <mask id="mask0_13463_11013" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="39" width="760" height="747">
+    <rect x="760" y="39.9668" width="746.034" height="759.356" rx="373.017" transform="rotate(90 760 39.9668)" fill="url(#paint1_linear_13463_11013)" />
+  </mask>
+  <g mask="url(#mask0_13463_11013)">
+    <g opacity="0.5">
+      <mask id="mask1_13463_11013" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="202" y="-64" width="508" height="508">
+        <circle cx="455.97" cy="189.808" r="253.513" transform="rotate(-15 455.97 189.808)" fill="#C4C4C4" />
+      </mask>
+      <g mask="url(#mask1_13463_11013)">
+        <path d="M104.566 146.112C104.566 146.112 204.602 97.8529 216.716 27.4734C228.269 -39.9755 330.435 -86.9802 330.435 -86.9802" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M111.642 177.723C111.642 177.723 234.599 119.874 249.692 34.8702C264.061 -46.2671 389.535 -102.442 389.535 -102.442" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M118.738 209.423C118.738 209.423 264.507 141.925 282.619 42.4615C299.836 -52.6414 448.639 -117.905 448.639 -117.905" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M125.815 241.036C125.815 241.036 294.503 163.947 315.595 49.8592C335.628 -58.932 507.738 -133.367 507.738 -133.367" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M132.893 272.648C132.893 272.648 324.501 185.967 348.592 57.3374C371.421 -65.2258 566.749 -148.806 566.749 -148.806" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M139.99 304.348C139.99 304.348 354.428 208.101 381.499 64.8467C407.285 -71.625 625.851 -164.267 625.851 -164.267" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M147.068 335.961C147.068 335.961 384.405 230.04 414.495 72.3286C443.077 -77.915 684.949 -179.728 684.949 -179.728" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M154.146 367.573C154.146 367.573 414.402 252.06 447.38 79.7517C478.869 -84.2064 744.048 -195.191 744.048 -195.191" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M161.244 399.273C161.244 399.273 444.331 274.194 480.398 87.3155C514.644 -90.5823 803.061 -210.63 803.061 -210.63" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M168.321 430.883C168.321 430.883 474.328 296.215 513.304 94.8226C550.435 -96.8731 862.159 -226.092 862.159 -226.092" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M175.42 462.584C175.42 462.584 504.326 318.24 546.301 102.306C586.23 -103.163 921.261 -241.554 921.261 -241.554" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M182.498 494.199C182.498 494.199 534.233 340.288 579.207 109.813C622.001 -109.536 980.357 -257.015 980.357 -257.015" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M189.576 525.806C189.576 525.806 564.229 362.308 612.182 117.209C657.793 -115.828 1039.45 -272.479 1039.45 -272.479" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M196.674 557.507C196.674 557.507 594.229 384.332 645.201 124.774C693.588 -122.12 1098.47 -287.918 1098.47 -287.918" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M203.753 589.122C203.753 589.122 624.135 406.38 678.086 132.198C729.361 -128.493 1157.57 -303.379 1157.57 -303.379" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M210.832 620.736C210.832 620.736 654.133 428.4 711.082 139.678C765.152 -134.785 1216.67 -318.843 1216.67 -318.843" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M217.93 652.437C217.93 652.437 684.15 450.507 743.989 147.188C800.945 -141.074 1275.77 -334.304 1275.77 -334.304" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+        <path d="M225.008 684.044C225.008 684.044 714.039 472.471 776.985 154.666C836.719 -147.452 1334.78 -349.744 1334.78 -349.744" stroke="white" stroke-width="0.783649" stroke-miterlimit="10" />
+      </g>
+    </g>
+  </g>
+  <g filter="url(#filter0_b_13463_11013)">
+    <rect x="626.49" width="285.248" height="289.95" rx="142.624" transform="rotate(90 626.49 0)" fill="#F2F4F7" fill-opacity="0.1" />
+    <rect x="625.99" y="0.5" width="284.248" height="288.95" rx="142.124" transform="rotate(90 625.99 0.5)" stroke="#F2F4F7" stroke-opacity="0.1" />
+  </g>
+  <defs>
+    <filter id="filter0_b_13463_11013" x="297.358" y="-39.1825" width="368.315" height="363.613" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.5912" />
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_13463_11013" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_13463_11013" result="shape" />
+    </filter>
+    <linearGradient id="paint0_linear_13463_11013" x1="791.534" y1="217.822" x2="1615.53" y2="1320.32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1849A9" />
+      <stop offset="1" stop-color="#2970FF" />
+    </linearGradient>
+    <linearGradient id="paint1_linear_13463_11013" x1="735.761" y1="43.0813" x2="1514.88" y2="43.0813" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF1D6A" />
+      <stop offset="1" stop-color="#FF6E2E" />
+    </linearGradient>
+  </defs>
+</svg>
