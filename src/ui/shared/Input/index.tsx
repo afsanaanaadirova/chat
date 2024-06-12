@@ -54,11 +54,12 @@ const Input = ({
               "w-full h-full peer text-15px400",
               label ? "pt-3" : "",
             ].join(" ")}
-            onKeyDown={(e) =>
+            onKeyDown={(e) => (
               type === "number" &&
-              ["e", "+"].includes(e.key) &&
-              e.preventDefault()
-            }
+                ["e", "+"].includes(e.key) &&
+                e.preventDefault(),
+              e.keyCode === 13 && e.preventDefault()
+            )}
             onChange={(e: ChangeEvent<HTMLInputElement>) => {
               isDebounce && setInnerValue(e.target.value);
               !dirty && setDirty(true);

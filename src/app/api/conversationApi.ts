@@ -14,7 +14,7 @@ export const getConversationApi = () => {
 
 export const getConversationByIdApi = (id: number) => {
   return useQuery({
-    queryKey: [ERevalidateTags.chatt],
+    queryKey: [ERevalidateTags.chatt, id],
     queryFn: () => {
       return conversation_repository.getConversationById(id);
     },

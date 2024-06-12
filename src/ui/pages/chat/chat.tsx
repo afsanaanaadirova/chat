@@ -28,29 +28,32 @@ const Chat = () => {
   const deletedConversation = deletedConversationApi();
   const addChat = addChatApi();
 
-  const { data: conversations, isLoading: conversationsLoading } =
-    getConversationApi();
+  const {
+    data: conversations,
+    isError,
+    isLoading: conversationsLoading,
+  } = getConversationApi();
 
   const {
     data: conversationById,
-    refetch,
+    error,
     isLoading: conversationByIdLoading,
   } = getConversationByIdApi(Number(conversation));
 
-  const { register, handleSubmit, setValue } = useForm({});
+  const { register, handleSubmit, setValue } = useForm();
 
   const logout = () => {
     (getCookieData && clearCookies("authToken")) ?? navigate("/");
   };
-
   const addMessageHandler = (data: any) => {
     const sendData = {
       message: data.message ? data.message : "Sorry repeat again",
       conversation_id: conversation,
     };
+
     addChat.mutate(sendData, {
       onSuccess() {
-        setValue("message", " ");
+        setValue("message", "");
         toastNotification("success", "add successfully");
       },
       onError(error: any) {
@@ -58,6 +61,11 @@ const Chat = () => {
       },
     });
   };
+  error && toastNotification("error", error.message);
+
+  if (isError) {
+    toastNotification("error", "Too Many Requests");
+  }
 
   const createHandler = (data: any) => {
     addConversation.mutate(data, {
@@ -87,7 +95,6 @@ const Chat = () => {
   };
 
   const setItem = (id: any) => {
-    refetch();
     setConversationId(id);
   };
   return (
@@ -168,7 +175,7 @@ const Chat = () => {
                       </div>
                     ) : (
                       <span className="float-right border rounded-3xl bg-[#F0F9FF]  p-4">
-                        {item.content}
+                        {addChat.isPending ? "..." : item.content}
                       </span>
                     )
                   )
@@ -176,11 +183,11 @@ const Chat = () => {
               </div>
             )}
           </div>
-          <form onSubmit={handleSubmit(addMessageHandler)} className="Fw-full">
+          <form onSubmit={handleSubmit(addMessageHandler)} className="w-full">
             <Input
               name="message"
               label="Reply to Chatbot"
-              trailing="Press Enter"
+              trailing={<Button className="bg-blue-500">Send</Button>}
               register={register}
               className="w-full"
             />
